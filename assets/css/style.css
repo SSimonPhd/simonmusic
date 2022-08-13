@@ -59,7 +59,7 @@ h4 {
 
 p {
     font-size: 16px;
-    color: #f5f5f5;
+    color: whitesmoke;
     line-height: 1.5rem;
     font-weight: 400;
 }
@@ -71,7 +71,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     padding: 10px 0px 10px 10px;
-    background-color: black;
+    background-color: #141414;
     justify-content: center; 
 }
 
@@ -133,21 +133,6 @@ p {
     box-shadow: var(--box-shadow);
 }
 
-/* @keyframes cursor-blink {
-    0% {
-      opacity: 0;
-    }
-  }
-  
-  .header-box h2::after {
-    content: "";
-    width: 4px;
-    height: 20px;
-    background: #1660c2;
-    display: inline-block;
-    animation: cursor-blink 1.5s steps(2) infinite;
-  } */
-
 .content {
     width: 60%;
     display: flex;
@@ -160,7 +145,7 @@ p {
     width: 680px;
 	padding: 20px;
     margin: 20px 10px 10px 20px;
-    background-color: black;
+    background-color:#141414;
     font-weight: 400;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);  
@@ -179,7 +164,7 @@ p {
     height: 800px;
 	padding: 40px;
     margin: 5px 0px 0px 50px;
-    background-color:black;
+    background-color: #141414;
     letter-spacing: 1px;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
@@ -193,7 +178,7 @@ p {
 .footer {
     text-align: right;
     padding: 25px 160px 25px 0px;
-    background-color: black;
+    background-color:#141414;
 }
 
 /* Media queries */
