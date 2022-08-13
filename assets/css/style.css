@@ -205,13 +205,13 @@ p {
 
 @media screen and (max-width: 992px) {
     .header, .container, .footer  {
-    background-color: lightblue;
+    background-color: silver;
    }
 }
 
 @media screen and (max-width: 640px) {
     .header, .container, .footer {
-    background-color: rosybrown;
+    background-color: cornsilk;
     zoom: .5; 
     }
 }
