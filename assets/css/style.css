@@ -71,6 +71,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     padding: 10px 0px 10px 10px;
+    margin-bottom: 0px;
     background-color: #141414;
     justify-content: center; 
 }
@@ -111,7 +112,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px 20px 20px 40px;
+    margin: 50px 20px 20px 40px;
 }
 
 .hero img {
@@ -134,7 +135,7 @@ p {
 }
 
 .content {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -143,7 +144,7 @@ p {
 
 .content-intro {
     width: 680px;
-	padding: 60px;
+	padding: 60px 20px 60px 60px;
     margin: 20px 10px 10px 20px;
     background-color:#141414;
     font-weight: 400;
@@ -159,11 +160,32 @@ p {
     margin-left: 35px;
 }
 
+.content-pages {
+    width: 680px;
+	padding: 60px 20px 60px 60px;
+    margin: 25px 10px 10px 20px;
+    background-color:#141414;
+    font-weight: 400;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);  
+}
+
+.content-pages p {
+    padding: 0px 50px 0px 20px;
+    line-height: 1.5rem;
+}
+
+.content-pages img {
+    margin-left: 40px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
 .aside {
     width: 280px;
     height: 800px;
 	padding: 50px 10px 10px 50px;
-    margin: 5px 0px 0px 50px;
+    margin: 10px 50px 0px 50px;
     background-color: #141414;
     letter-spacing: 1px;
     border-radius: var(--border-radius);
@@ -199,7 +221,7 @@ p {
 
 @media screen and (max-width: 992px) {
     .header, .container, .footer  {
-    background-color: silver;
+    background-color: lavender;
    }
 }
 
