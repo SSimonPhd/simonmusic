@@ -160,6 +160,11 @@ p {
     margin-left: 35px;
 }
 
+.content-intro img {
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
 .content-pages {
     width: 680px;
 	padding: 60px 20px 60px 60px;
