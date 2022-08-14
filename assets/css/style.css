@@ -143,7 +143,7 @@ p {
 
 .content-intro {
     width: 680px;
-	padding: 20px;
+	padding: 60px;
     margin: 20px 10px 10px 20px;
     background-color:#141414;
     font-weight: 400;
@@ -162,7 +162,7 @@ p {
 .aside {
     width: 280px;
     height: 800px;
-	padding: 40px;
+	padding: 50px 10px 10px 50px;
     margin: 5px 0px 0px 50px;
     background-color: #141414;
     letter-spacing: 1px;
@@ -173,6 +173,15 @@ p {
 .aside a {
     font-size: 20px;
     font-weight: 600;
+}
+
+.aside img {
+    margin: 0px 10px 20px 20px;
+}
+
+.aside-info p {
+    font-style: italic;
+    padding-left: 20px;
 }
 
 .footer {
