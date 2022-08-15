@@ -1,2 +1,2 @@
 # simonmusic
-Music site redesign
+My music site
