@@ -1,2 +1,2 @@
 # simonmusic
-My music site
+My music website
